@@ -1,5 +1,6 @@
 echo --------------git stash-------------------
-git stash
+a=$(git stash)
+echo ------------$a -------------------
 
 echo --------------git pull --rebase-------------------
 git pull --rebase
